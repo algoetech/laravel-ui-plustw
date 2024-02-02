@@ -13,6 +13,7 @@ class AuthCommand extends Command
      * @var string
      */
     protected $signature = 'ui:auth
+                    { type=tailwind : The preset type (tailwind) }
                     { type=bootstrap : The preset type (bootstrap) }
                     {--views : Only scaffold the authentication views}
                     {--force : Overwrite existing views by default}';
@@ -53,7 +54,7 @@ class AuthCommand extends Command
             return call_user_func(static::$macros[$this->argument('type')], $this);
         }
 
-        if (! in_array($this->argument('type'), ['bootstrap', 'tailwind'])) {
+        if (! in_array($this->argument('type'), ['tailwind', 'bootstrap'])) {
             throw new InvalidArgumentException('Invalid preset.');
         }
 
@@ -64,7 +65,8 @@ class AuthCommand extends Command
             $this->exportBackend();
         }
 
-        $this->components->info('Authentication scaffolding generated successfully.');
+        // $this->components->info('Authentication scaffolding generated successfully.');
+        $this->components->success('DONE: Authentication scaffolding generated successfully.');
     }
 
     /**

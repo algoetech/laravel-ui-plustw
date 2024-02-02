@@ -32,6 +32,7 @@ class Tailwind extends Preset
             "@tailwindcss/aspect-ratio" => "^0.4.2",
             "@tailwindcss/forms" => "^0.5.7",
             "@tailwindcss/typography" => "^0.5.10",
+            "vite-plugin-windicss" => "^1.9.3",
             "autoprefixer" => "^10.4.16",
             "postcss" => "^8.4.31",
             "tailwindcss" => "^3.3.5",

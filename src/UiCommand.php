@@ -68,7 +68,7 @@ class UiCommand extends Command
      */
     protected function tailwind()
     {
-        Presets\Bootstrap::install();
+        Presets\Bootstrap::essentialInstall();
         Presets\Tailwind::install();
 
         $this->components->info('Tailwind scaffolding installed successfully.');

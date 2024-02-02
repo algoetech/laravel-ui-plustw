@@ -20,6 +20,14 @@ class Bootstrap extends Preset
         static::removeNodeModules();
     }
 
+    public static function essentialInstall()
+    {
+        static::updatePackages();
+        static::updateSass();
+        static::updateBootstrapping();
+        static::removeNodeModules();
+    }
+
     /**
      * Update the given package array.
      *
