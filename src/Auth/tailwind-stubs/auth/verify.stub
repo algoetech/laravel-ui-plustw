@@ -1,0 +1,30 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="container">
+    <div class="flex justify-center">
+        <div class="w-full max-w-md">
+            <div class="bg-white rounded-lg overflow-hidden shadow-md">
+                <div class="p-6 bg-gray-200 text-gray-700">{{ __('Verify Your Email Address') }}</div>
+
+                <div class="p-6">
+                    @if (session('resent'))
+                        <div class="alert alert-success" role="alert">
+                            {{ __('A fresh verification link has been sent to your email address.') }}
+                        </div>
+                    @endif
+
+                    {{ __('Before proceeding, please check your email for a verification link.') }}
+                    {{ __('If you did not receive the email') }},
+                    <form class="inline" method="POST" action="{{ route('verification.resend') }}">
+                        @csrf
+                        <button type="submit" class="text-blue-500 hover:underline focus:outline-none focus:underline active:text-blue-700">
+                            {{ __('click here to request another') }}
+                        </button>.
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
