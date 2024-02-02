@@ -1,13 +1,9 @@
 {
-    "name": "laravel/ui",
+    "name": "algoetech/laravel-ui-plustw",
     "description": "Laravel UI utilities and presets.",
     "keywords": ["laravel", "ui"],
     "license": "MIT",
     "authors": [
-        {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
-        },
         {
             "name": "Aman Tairo",
             "email": "tairocruise@yahoo.com"
