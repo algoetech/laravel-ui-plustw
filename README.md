@@ -162,4 +162,4 @@ Please review [our security policy](https://github.com/laravel/ui/security/polic
 
 ## License
 
-Laravel UI is open-sourced software licensed under the [MIT license](LICENSE.md).
+Laravel UI+ TW is open-sourced software licensed under the [MIT license](LICENSE.md).
