@@ -152,15 +152,13 @@ php artisan ui nextjs
 
 ## Contributing
 
-Thank you for considering contributing to UI! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Welcome contributors
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+<!-- ## Security Vulnerabilities
 
-Please review [our security policy](https://github.com/laravel/ui/security/policy) on how to report security vulnerabilities.
+Please review [our security policy](https://github.com/laravel/ui/security/policy) on how to report security vulnerabilities. -->
 
 ## License
 
