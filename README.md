@@ -1,4 +1,4 @@
-# Laravel UI
+# Laravel UI+ TW
 
 <a href="https://packagist.org/packages/laravel/ui"><img src="https://img.shields.io/packagist/dt/laravel/ui" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/ui"><img src="https://img.shields.io/packagist/v/laravel/ui" alt="Latest Stable Version"></a>
@@ -6,32 +6,29 @@
 
 ## Introduction
 
-While Laravel does not dictate which JavaScript or CSS pre-processors you use, it does provide a basic starting point using [Bootstrap](https://getbootstrap.com/), [React](https://reactjs.org/), and / or [Vue](https://vuejs.org/) that will be helpful for many applications. By default, Laravel uses [NPM](https://www.npmjs.org/) to install both of these frontend packages.
+This package is a modification of [Laravel UI 4.x](https://github.com/laravel/ui/tree/4.x) package. It is created to fill the gap of a simple tailwind authentication scaffolding by copying the methods used in [Laravel UI 4.x](https://github.com/laravel/ui/tree/4.x) package
 
-> This legacy package is a very simple authentication scaffolding built on the Bootstrap CSS framework. While it continues to work with the latest version of Laravel, you should consider using [Laravel Breeze](https://github.com/laravel/breeze) for new projects. Or, for something more robust, consider [Laravel Jetstream](https://github.com/laravel/jetstream).
 
-## Official Documentation
+
+## Documentation
 
 ### Supported Versions
 
-Only the latest major version of Laravel UI receives bug fixes. The table below lists compatible Laravel versions:
+Only the latest major version of **Laravel UI+ TW** receives bug fixes. The table below lists compatible Laravel versions:
 
-| Version | Laravel Version |
+| Version | Laravel Version | Date |
 |---- |----|
-| [1.x](https://github.com/laravel/ui/tree/1.x) | 5.8, 6.x |
-| [2.x](https://github.com/laravel/ui/tree/2.x) | 7.x |
-| [3.x](https://github.com/laravel/ui/tree/3.x) | 8.x |
-| [4.x](https://github.com/laravel/ui/tree/4.x) | 9.x, 10.x, 11.x |
+| [1.x](https://github.com/laravel/ui/tree/4.x) | 9.x, 10.x, 11.x | 2nd Feb' 2024 |
 
 ### Installation
 
-The Bootstrap and Vue scaffolding provided by Laravel is located in the `laravel/ui` Composer package, which may be installed using Composer:
+The Bootstrap, TailWind, React and Vue scaffolding provided by Laravel ui+ tw is located in the `algoetech/laravel-uiplustw` Composer package, which may be installed using Composer:
 
 ```bash
-composer require laravel/ui
+composer require algoetech/laravel-uiplustw
 ```
 
-Once the `laravel/ui` package has been installed, you may install the frontend scaffolding using the `ui` Artisan command:
+Once the `algoetech/laravel-uiplustw` package has been installed, you may install the frontend scaffolding using the `ui` Artisan command:
 
 ```bash
 // Generate basic scaffolding...
@@ -57,7 +54,7 @@ Laravel does not require you to use a specific JavaScript framework or library t
 
 ### Writing CSS
 
-After installing the `laravel/ui` Composer package and [generating the frontend scaffolding](#introduction), Laravel's `package.json` file will include the `bootstrap` package to help you get started prototyping your application's frontend using Bootstrap. However, feel free to add or remove packages from the `package.json` file as needed for your own application. You are not required to use the Bootstrap framework to build your Laravel application - it is provided as a good starting point for those who choose to use it.
+After installing the `algoetech/laravel-uiplustw` Composer package and [generating the frontend scaffolding](#introduction), Laravel's `package.json` file will include the `bootstrap` package to help you get started prototyping your application's frontend using Bootstrap. However, feel free to add or remove packages from the `package.json` file as needed for your own application. You are not required to use the Bootstrap framework to build your Laravel application - it is provided as a good starting point for those who choose to use it.
 
 Before compiling your CSS, install your project's frontend dependencies using the [Node package manager (NPM)](https://www.npmjs.org):
 
