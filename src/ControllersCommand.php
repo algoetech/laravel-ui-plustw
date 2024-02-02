@@ -1,12 +1,15 @@
 <?php
 
-namespace Laravel\Ui;
+namespace Algoetech\LaravelUi;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
 use Symfony\Component\Finder\SplFileInfo;
 
+/**
+ * @author [Aman Tairo](tairocruise@yahoo.com).
+ */
 class ControllersCommand extends Command
 {
     /**

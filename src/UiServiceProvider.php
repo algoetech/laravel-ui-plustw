@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Ui;
+namespace Algoetech\LaravelUi;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;

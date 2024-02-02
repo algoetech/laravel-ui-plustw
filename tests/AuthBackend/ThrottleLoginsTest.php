@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Ui\Tests\AuthBackend;
+namespace Algoetech\LaravelUi\Tests\AuthBackend;
 
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Orchestra\Testbench\TestCase;

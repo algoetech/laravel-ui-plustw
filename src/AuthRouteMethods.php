@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Ui;
+namespace Algoetech\LaravelUi;
 
 class AuthRouteMethods
 {

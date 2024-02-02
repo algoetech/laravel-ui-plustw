@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Ui\Tests\AuthBackend;
+namespace Algoetech\LaravelUi\Tests\AuthBackend;
 
 use Illuminate\Auth\Events\Attempting;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;

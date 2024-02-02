@@ -1,7 +1,7 @@
 {
     "name": "algoetech/laravel-ui-plustw",
-    "description": "Laravel UI utilities and presets.",
-    "keywords": ["laravel", "ui"],
+    "description": "Laravel UI utilities and presets copies from Laravel UI.",
+    "keywords": ["laravel", "ui", "laravel ui tailwind"],
     "license": "MIT",
     "authors": [
         {
