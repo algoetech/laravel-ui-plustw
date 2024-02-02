@@ -36,11 +36,13 @@ Once the `laravel/ui` package has been installed, you may install the frontend s
 ```bash
 // Generate basic scaffolding...
 php artisan ui bootstrap
+php artisan ui tailwind
 php artisan ui vue
 php artisan ui react
 
 // Generate login / registration scaffolding...
 php artisan ui bootstrap --auth
+php artisan ui tailwind --auth
 php artisan ui vue --auth
 php artisan ui react --auth
 ```
@@ -61,6 +63,12 @@ Before compiling your CSS, install your project's frontend dependencies using th
 
 ```bash
 npm install
+```
+
+If you have use the tailwind scaffolding, run this if not skip:
+
+```bash
+npx tailwind init
 ```
 
 Once the dependencies have been installed using `npm install`, you can compile your SASS files to plain CSS using [Vite](https://laravel.com/docs/vite#working-with-stylesheets). The `npm run dev` command will process the instructions in your `vite.config.js` file. Typically, your compiled CSS will be placed in the `public/build/assets` directory:
