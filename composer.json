@@ -1,7 +1,7 @@
 {
     "name": "algoetech/laravel-ui-plustw",
-    "description": "Laravel UI utilities and presets copies from Laravel UI.",
-    "keywords": ["laravel", "ui", "laravel ui tailwind"],
+    "description": "Laravel UI+ TW utilities and presets copies from Laravel UI.",
+    "keywords": ["laravel", "ui", "laravel ui tailwind", "tailwind scaffolding"],
     "license": "MIT",
     "authors": [
         {
@@ -22,7 +22,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Algoetech\\LaravelUi\\": "src/",
+            "Algoetech\\LaravelUi\\": "src/Presets/",
+            "Laravel\\Ui": "src/",
             "Illuminate\\Foundation\\Auth\\": "auth-backend/"
         }
     },
@@ -35,7 +36,7 @@
         },
         "laravel": {
             "providers": [
-                "Algoetech\\LaravelUi\\UiServiceProvider"
+                "Laravel\\Ui\\UiServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Algoetech\LaravelUi;
+namespace Laravel\Ui;
 
 use Illuminate\Console\Command;
 use InvalidArgumentException;
