@@ -18,6 +18,7 @@ Only the latest major version of **Laravel UI+ TW** receives bug fixes. The tabl
 
 | Version | Laravel Version | Date |
 |---- |----|
+
 | [1.x](https://github.com/laravel/ui/tree/4.x) | 9.x, 10.x, 11.x | 2nd Feb' 2024 |
 
 ### Installation
